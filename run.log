@@ -1,0 +1,30 @@
+[1] Loading raw data ...
+     Raw shape: (149295, 41)
+     After dropping missing target rows: 149295 (0 removed)
+     After dedup: 149294
+     Applying IQR capping ...
+[2] EDA ...
+     Summary stats -> /home/fachel/projects/weather-forecast/output/summary_statistics.txt
+     Saved /home/fachel/projects/weather-forecast/output/temperature_distribution.png
+     Saved /home/fachel/projects/weather-forecast/output/correlation_heatmap.png
+     Saved /home/fachel/projects/weather-forecast/output/temp_time_series.png
+     Saved /home/fachel/projects/weather-forecast/output/temperature_by_country.png
+     Saved /home/fachel/projects/weather-forecast/output/precipitation_patterns.png
+     Saved /home/fachel/projects/weather-forecast/output/geographical_temperature_map.png
+[3] Advanced EDA ...
+     Saved /home/fachel/projects/weather-forecast/output/anomaly_detection.png
+     Saved /home/fachel/projects/weather-forecast/output/air_quality_correlation.png
+[4] Forecasting Models ...
+     Using top location by record count: Sanaa (769 records)
+     Daily rows for forecast: 766
+     Naive baseline done
+     Linear Regression done
+     Random Forest done
+     XGBoost done
+     ARIMA/SARIMA done
+     Ensemble done
+     Model comparison table -> /home/fachel/projects/weather-forecast/output/model_comparison.txt
+     Saved /home/fachel/projects/weather-forecast/output/model_comparison.png
+     Saved /home/fachel/projects/weather-forecast/output/actual_vs_predicted.png
+[5] Unique Analyses ...
+     Saved /home/fachel/projects/weather-forecast/output/climate_trends.png
