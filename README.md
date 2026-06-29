@@ -5,11 +5,6 @@
 - **Source:** Kaggle: World Weather Repository (nelgiriyewithana/global-weather-repository)
 - **Rows/Cols:** ~150K rows, 40+ features (temperature, humidity, wind, air quality, location, time)
 
-## Deliverable
-1. **`weather_forecast.ipynb`** — Complete Jupyter notebook with all code, markdown explanations, inline visualizations
-2. **`weather_forecast.py`** — Standalone script that generates all plots to `output/`
-3. **`README.md`** — Full documentation
-
 ### 1. Data Cleaning & Preprocessing
 - Handle missing values (impute or drop)
 - Handle outliers (IQR or z-score)
