@@ -65,8 +65,7 @@ Metrics: MAE, RMSE, MAPE, R^2. Comparison table. Actual vs predicted plot.
 - geographical_temperature_map.png
 - precipitation_patterns.png
 
-### Technical Requirements
-- Python with: pandas, numpy, matplotlib, seaborn, scikit-learn, statsmodels, xgboost, plotly
-- run weather_forecast.ipynb must be self-contained and generate everything
-- Handle edge cases: small countries, missing air quality, timezone handling
-- Persistent workspace: weather-forecast/
+### How to Run
+
+- `python weather_forecast.py` 
+
