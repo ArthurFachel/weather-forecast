@@ -1,13 +1,11 @@
-# Weather Trend Forecasting — Daedalus Task Spec
+# Weather Trend Forecasting 
 
 ## Dataset
-- **File:** `/home/fachel/projects/weather-forecast/GlobalWeatherRepository.csv` (already downloaded)
-- **Source:** Kaggle — World Weather Repository (nelgiriyewithana/global-weather-repository)
+- **File:** GlobalWeatherRepository.csv 
+- **Source:** Kaggle: World Weather Repository (nelgiriyewithana/global-weather-repository)
 - **Rows/Cols:** ~150K rows, 40+ features (temperature, humidity, wind, air quality, location, time)
 
 ## Deliverable
-Create at `/home/fachel/projects/weather-forecast/`:
-
 1. **`weather_forecast.ipynb`** — Complete Jupyter notebook with all code, markdown explanations, inline visualizations
 2. **`weather_forecast.py`** — Standalone script that generates all plots to `output/`
 3. **`README.md`** — Full documentation
@@ -52,9 +50,6 @@ Metrics: MAE, RMSE, MAPE, R^2. Comparison table. Actual vs predicted plot.
 - **Spatial Analysis:** Latitude bands (tropical/ temperate/ arctic) — analyze per band
 - **Geographical Patterns:** Aggregate by country — hottest/coldest/wettest/driest/windiest. Map visualizations.
 
-### 6. PM Accelerator Mission
-Find the PM Accelerator mission from their website: https://www.pmaccelerator.io/
-Display it prominently in the report/presentation.
 
 ### Output Files (all to `output/`)
 - correlation_heatmap.png
@@ -72,6 +67,6 @@ Display it prominently in the report/presentation.
 
 ### Technical Requirements
 - Python with: pandas, numpy, matplotlib, seaborn, scikit-learn, statsmodels, xgboost, plotly
-- `python weather_forecast.py` must be self-contained and generate everything
+- run weather_forecast.ipynb must be self-contained and generate everything
 - Handle edge cases: small countries, missing air quality, timezone handling
-- Persistent workspace: /home/fachel/projects/weather-forecast/
+- Persistent workspace: weather-forecast/
